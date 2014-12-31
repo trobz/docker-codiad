@@ -17,6 +17,7 @@ ADD config/dir.conf /etc/apache2/mods-available/dir.conf
 ADD config/vhost.conf /etc/apache2/sites-available/000-default.conf
 ADD config/apache2.conf /etc/apache2/apache2.conf
 ADD config/codiad.php  /tmp/codiad.php
+ADD config/auth.php  /tmp/auth.php
 
 ADD scripts/setup/codiad.sh /tmp/setup/codiad.sh  
 RUN /bin/bash < /tmp/setup/codiad.sh

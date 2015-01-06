@@ -1,3 +1,3 @@
 <?PHP
-$_SESSION['user'] = 'trobz';
+$_SESSION['user'] = 'default';
 ?>
